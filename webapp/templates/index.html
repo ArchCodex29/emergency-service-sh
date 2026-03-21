@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Emergency Control</title>
+    <style>
+      body { font-family: sans-serif; background: #111; color: #eee; text-align: center; margin-top: 10%; }
+      button { font-size: 1.5em; padding: 1em 2em; background: #c33; color: white; border: none; border-radius: 10px; cursor: pointer; }
+      button:hover { background: #e55; }
+    </style>
+  </head>
+  <body>
+    <h1>Emergency Shutdown Control</h1>
+    <form method="POST" action="/shutdown">
+      <button type="submit" name="shutdown" value="1">Shutdown Pi</button>
+    </form>
+  </body>
+</html>
