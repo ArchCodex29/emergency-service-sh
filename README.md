@@ -12,6 +12,8 @@
 - Handler : it starts/stops the emergency AP, as well as the `WebApp`
 - WebApp : simple web app to allow a remote device (eg: smartphone) to click a big red button and issue the shutdown command
 
+![Component Diagram](assets/emergency-service-diagram.png)
+
 note: (in debug) check http://localhost:9999
 
 Where applicable, replace {service-path} with the folder path where project exists
